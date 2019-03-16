@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "target": "es6",
+    "jsx": "react",
+    "importHelpers": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/custom-types"
+    ],
+    "lib": [
+      "es5",
+      "es6",
+      "es2015.promise",
+      "dom"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
